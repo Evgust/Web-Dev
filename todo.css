@@ -1,0 +1,99 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    background-color:rgb(39, 43, 43);
+}
+.header{
+    padding-left: 10%;
+    color: rgb(130, 134, 136);
+    display: flex;
+    padding-top: 20px;
+    font-size: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.task-add{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 5%
+}
+.task-add input{
+    width: 70%;
+    height: 35px;
+    border: solid 1px;
+    border-color: rgb(220, 220, 220);
+    padding: 0 20px;
+    border-radius: 3px;
+}
+#addButton{
+    cursor: pointer;
+    margin-left: 3%;
+    width: 10%;
+    color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+ul{
+    padding-left: 0;
+    margin-top: 6%;
+}
+li{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    border: 1px solid rgb(220, 220, 220);
+    border-top:none;
+    padding: 8px;
+}
+li:first-child {
+    border-top: 1px solid rgb(220, 220, 220);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+li:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+li input{
+    margin: 0 20px;
+}
+span{
+    margin-left: 10px;
+}
+button{
+    background-color: rgb(8, 109, 181);
+    transition: background-color 100ms linear 0s; 
+    padding: 10px;
+}
+#addButton:hover{
+    background-color: rgb(43, 138, 193);
+}
+.delete-btn{
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    background-color: rgb(245, 162, 161);
+}
+.completed {
+    text-decoration: line-through;
+    color: #6f6c6c;
+}
+svg{
+    height: 20px;
+    width: 20px;
+}
